@@ -17,6 +17,7 @@
         <module>learning-eureka</module>
         <module>learning-feign</module>
         <module>learning-ribbon</module>
+        <module>learning-hystrix</module>
     </modules>
     <packaging>pom</packaging>
 
