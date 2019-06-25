@@ -1,0 +1,11 @@
+server:
+  port: 8012
+spring:
+  application:
+    name: provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true #表示将自己的ip注册到Eureka Server上，不配置的话，会将当前服务提供这的主机名注册到Eureka Server
