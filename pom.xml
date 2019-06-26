@@ -18,6 +18,8 @@
         <module>learning-feign</module>
         <module>learning-ribbon</module>
         <module>learning-hystrix</module>
+        <module>learning-zuul</module>
+        <module>learning-consul</module>
     </modules>
     <packaging>pom</packaging>
 

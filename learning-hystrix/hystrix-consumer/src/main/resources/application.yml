@@ -1,0 +1,17 @@
+logging:
+  level:
+    xin.liujiajun.hystrix.service.IUserService: debug
+feign:
+  hystrix:
+    enabled: true #默认feign的hystrix没有开启
+server:
+  port: 8888
+spring:
+  application:
+    name: consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:8761}/eureka/
+  instance:
+    prefer-ip-address: true

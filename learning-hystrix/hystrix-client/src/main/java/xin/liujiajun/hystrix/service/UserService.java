@@ -1,6 +1,8 @@
 package xin.liujiajun.hystrix.service;
 
+import com.netflix.hystrix.HystrixObservableCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.ribbon.proxy.annotation.Hystrix;
 import org.springframework.stereotype.Service;
 
 /**

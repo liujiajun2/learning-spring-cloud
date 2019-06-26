@@ -8,15 +8,13 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>learning-hystrix</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>hystrix-eureke-server</module>
-        <module>hystrix-client</module>
-        <module>hystrix-consumer</module>
-        <module>hystrix-provider</module>
+        <module>zuul-eureka</module>
+        <module>zuul-server</module>
+        <module>zuul-client</module>
     </modules>
+    <artifactId>learning-zuul</artifactId>
 
     <properties>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
