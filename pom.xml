@@ -22,6 +22,7 @@
         <module>learning-consul</module>
         <module>learning-config</module>
         <module>learning-gateway</module>
+        <module>learning-auth</module>
     </modules>
     <packaging>pom</packaging>
 
