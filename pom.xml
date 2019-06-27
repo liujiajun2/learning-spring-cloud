@@ -20,6 +20,8 @@
         <module>learning-hystrix</module>
         <module>learning-zuul</module>
         <module>learning-consul</module>
+        <module>learning-config</module>
+        <module>learning-gateway</module>
     </modules>
     <packaging>pom</packaging>
 

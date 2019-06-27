@@ -1,0 +1,11 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: config-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/liujiajun2/spring-cloud-config.git
+          search-paths: CONFIG
